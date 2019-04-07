@@ -1,0 +1,36 @@
+.borders{
+    border:3px solid red;
+    
+}
+
+.bg-brown{
+    background-color: brown;
+}
+.header{
+    background-color: green
+}
+.footer{
+    background-color:blue
+}
+.col-bg-colors{
+    border:1px solid grey;
+    background-color: #ccc;
+
+}
+
+.alert-warning {
+    color: #856404;
+    background-color:orange !important;
+    border-color: #ffeeba;
+}
+.active{
+    background-color: aqua;
+    color:#856404;
+    border:1px solid #000;
+}
+.over-flow{
+    overflow: hidden;
+}
+.font-50{
+    font-size: 50px;
+}

@@ -1,0 +1,87 @@
+.iframes-1{width:100%; height:600px;border:0px;margin:0px;padding:0px;}
+
+.one{
+    width:100px;
+    height:100px;
+    padding:10px;
+    margin:10px;
+    display: inline;
+    background-color: chartreuse;
+    border:2px dotted #000;
+}
+
+.two{
+    width:100px;
+    height:100px;
+    padding:10px;
+    margin:10px;
+    display: inline-block;
+    background-color: chartreuse;
+    border:2px dotted #000;
+}
+
+.three{
+    width:100px;
+    height:100px;
+    padding:10px;
+    margin:10px;
+    display: block;
+    background-color: chartreuse;
+    border:2px dotted #000;
+}
+.four{
+    width:100px;
+    height:100px;
+    padding:10px;
+    margin:10px;
+    display: none;
+    background-color: chartreuse;
+    border:2px dotted #000;
+}
+
+.hide{display: none;}
+
+
+
+/* position properties */
+.fixed{position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: yellow;
+    border:3px solid #73AD21;
+    z-index:2
+}
+.abs{
+
+    position:absolute;
+    right:100px;
+    left:100px;
+    
+    background-color: yellow;
+    border:3px solid #73AD21;
+    z-index:1
+}
+
+.sticky{
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    background-color: green;
+    border:2px solid #4CAF50;}
+
+    .over-flow{
+        width:200px;
+        height:200px;
+        border:2px solid #73AD21;
+       overflow: scroll;
+    }
+
+    .overflow-hidden{
+        width:200px;
+        height:200px;
+        border:2px solid #73AD21;
+       overflow:hidden;
+    }
+
+

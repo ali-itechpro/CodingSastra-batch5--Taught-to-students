@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery</title>
+    <script src="js/jquery.js"></script>
+    <script>
+    $(document).ready(function () {
+        // applying border
+       // $("#special").css("border","2px solid red");
+
+       //applying css class as object
+      // $("#special").css(styles);
+
+       //select all li's and make yello
+       //$("li").css("background","yellow");
+
+       //select all div and make purple background
+      //$("div").css("background","purple");
+       //$(".highlight").css("width","200");
+      // $("#third").css("border","orange 3px solid");
+      // $("div:nth-child(4)").css("color","purple");
+
+      //$(".p1").text("new paragraph new paragraph")
+
+       //$("#box").attr("class","box");
+      // $("#p2").text("Hello <b>World!</b>")
+      // $("#p3").html("Hello <b>World!</b>")
+
+    //   $("#submit").click(function(){
+    //       alert("Submit is clicked!");
+    //   })
+
+    //   $("button").click(function(){
+    //      console.log("you clicked me");
+    //   })
+
+    //adding a class
+    // $("#addClass").click(function(){
+    //     $("#box").addClass("box");
+
+    // })
+    // remove class
+    // $("#removeClass").click(function(){
+    //     $("#box").removeClass();
+
+    // })
+
+    $("#add").click(function(){
+        var counter=$("li").length + 1;
+        $("ol").append("<li> new list item "+counter+"</li>");
+
+    })
+
+    $("#remove").click(function(){
+        $("li:last").remove();
+
+    })
+  
+  
+
+        })
+    </script>
+    <script>
+    var styles={
+        backgroundColor:"yellow",
+        color:"red",
+        fontWeight:"bold"
+    }
+    </script>
+    <style>
+    .box{
+        background:blue; height: 100px; 
+        width:200px;
+    }
+    </style>
+</head>
+<body>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ol>
+        <button id="add">Add Item</button>
+        <button id="remove">remove item</button>
+<br><br><br>
+        <div id="box">
+                this is the box model
+            </div>
+
+            <button id="toggle" >toggle Class</button>
+
+        <button id="addClass" >Add Class</button>
+        <button id="removeClass">remove class</button>
+    <br><br>
+
+    <input type="button" id="submit" value="submit"></button>
+    <button id="">Console Button</button>
+    <p id="p2"></p>
+    <p id="p3"></p>
+
+    <div id="box">
+        this is the box model
+    </div>
+    <p class="p1">This is the paragraph</p>
+    <br>
+        <div>Div 1</div>
+        <div class="highlight">Div 2</div>
+        <div id="third">Div 3</div>
+        <div class="highlight">Div 4</div>
+<br><br><br>
+    <p id="special"> this is the paragraph</p>
+
+    <!-- <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ol><br><br> -->
+
+  
+
+
+
+</body>
+</html>

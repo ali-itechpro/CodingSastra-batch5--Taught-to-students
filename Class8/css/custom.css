@@ -1,0 +1,25 @@
+.borders{
+    border:3px solid red;
+    
+}
+
+.bg-brown{
+    background-color: brown;
+}
+.header{
+    background-color: green
+}
+.footer{
+    background-color:blue
+}
+.col-bg-colors{
+    border:1px solid grey;
+    background-color: #ccc;
+
+}
+
+.alert-warning {
+    color: #856404;
+    background-color:orange !important;
+    border-color: #ffeeba;
+}

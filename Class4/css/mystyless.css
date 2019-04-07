@@ -1,0 +1,8 @@
+/* a:link{color:#fff; text-decoration: none;background-color: brown; border:2px solid #ccc; }
+a:visited{color:blue;}
+a:hover{color:yellow;  background-color: brown; border:2px solid #ccc}
+a:active{color:red;} */
+li{margin:10px;display: inline;}
+caption{text-align:right}
+.header-links:hover{color:red; text-decoration: none;}
+div > a:link{color:red}

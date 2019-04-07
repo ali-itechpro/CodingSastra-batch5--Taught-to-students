@@ -1,0 +1,68 @@
+.borders{
+    border:3px solid red;
+    
+}
+
+.bg-brown{
+    background-color: brown;
+}
+.header{
+    background-color: green
+}
+.footer{
+    background-color:blue
+}
+.col-bg-colors{
+    border:1px solid grey;
+    background-color: #ccc;
+
+}
+
+.alert-warning {
+    color: #856404;
+    background-color:orange !important;
+    border-color: #ffeeba;
+}
+.active{
+    background-color: aqua;
+    color:#856404;
+    border:1px solid #000;
+}
+.over-flow{
+    overflow: hidden;
+}
+.font-50{
+    font-size: 50px;
+}
+
+.float-left{
+    float: left;    
+
+}
+.float-right{
+    float: right;    
+
+}
+.width-400{
+    width: 400px;
+}
+
+.div-width{
+ min-width: 50px;
+ width: 200px;
+ max-width: 400px;
+
+ 
+ /* padding: 10px;
+ margin:10px;
+ border:10px solid #000; */
+}
+.center{
+    margin:200px auto;
+    vertical-align: middle;
+}
+.position-pro{
+    position: absolute;
+    right:100px;
+    bottom: 100px
+}
